@@ -11,7 +11,7 @@ DESTINATION_CHANNEL = os.getenv("DESTINATION_CHANNEL")  # نام کانال مق
 
 # تگ‌های قدیمی و جدید
 OLD_TAG = "@iMTProto"
-NEW_TAG = "@MProxyProtoT"
+NEW_TAG = "@DESTINATION_CHANNEL"
 
 def forward_message(update, context):
     # دریافت متن پیام
